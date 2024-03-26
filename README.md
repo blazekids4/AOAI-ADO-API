@@ -217,11 +217,13 @@ This script provides a basic example of how to interact with the Azure OpenAI AP
 
 After running the script, you can check your Azure DevOps project to see the new work item that was created.
 
-## Reference Documentation
-
-- Azure DevOps Services REST API Reference:  https://learn.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-7.2
-      - Work Items/Create:  https://learn.microsoft.com/en-us/rest/api/azure/devops/wit/work-items/create?view=azure-devops-rest-7.1&tabs=HTTP
-
 If you want to extend the script, you could add more fields to the work item, such as the Assigned To field or the Priority field. 
 
 You could also modify the script to interact with other APIs, or to perform different operations on the Azure DevOps API, such as updating or deleting work items.
+
+## Reference Documentation
+
+- Azure DevOps Services REST API Reference:  https://learn.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-7.2
+  
+- Work Items/Create:  https://learn.microsoft.com/en-us/rest/api/azure/devops/wit/work-items/create?view=azure-devops-rest-7.1&tabs=HTTP
+
