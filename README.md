@@ -220,7 +220,7 @@ After running the script, you can check your Azure DevOps project to see the new
 ## Reference Documentation
 
 - Azure DevOps Services REST API Reference:  https://learn.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-7.2
-      - Work Items - Create:  https://learn.microsoft.com/en-us/rest/api/azure/devops/wit/work-items/create?view=azure-devops-rest-7.1&tabs=HTTP
+      - Work Items/Create:  https://learn.microsoft.com/en-us/rest/api/azure/devops/wit/work-items/create?view=azure-devops-rest-7.1&tabs=HTTP
 
 If you want to extend the script, you could add more fields to the work item, such as the Assigned To field or the Priority field. 
 
