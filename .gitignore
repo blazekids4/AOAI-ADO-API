@@ -1,0 +1,10 @@
+.env
+__pycache__/
+.promptflow/*
+!.promptflow/flow.tools.json
+.runs/
+.myvenv
+.venv
+myvenv
+venv
+notes.md
