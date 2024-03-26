@@ -199,6 +199,10 @@ The script will prompt you for your User ID, BGPAS Number, and Region.
 
 Enter these values when prompted.
 
+## Results in Azure DevOps
+![image](https://github.com/blazekids4/AOAI-ADO-API/assets/45666337/a988730d-0fd7-4f37-bd4e-a5736fd5f121)
+
+
 ## Error Handling
 
 The script includes basic error handling. If an error occurs while sending data to the Azure DevOps API, the script will print an error message with the status code of the response.
