@@ -25,10 +25,10 @@ def validate_region(region):
     return region.lower() in VALID_REGIONS
 
 def get_user_input(prompt, validation_func):
-    user_input = input(prompt)
+    user_input = input(prompt) or "Y"
     while not validation_func(user_input):
         print("Invalid input.")
-        user_input = input(prompt)
+        user_input = input(prompt) or "Y"
     return user_input
 
 def convert_to_json(data):
@@ -66,11 +66,10 @@ def main():
 
     # Summary of inputs
     print(f"Summary of your inputs:\nUser ID: {user_id}\nBGPAS Number: {bgpas_number}\nRegion: {region}")
-    confirmation = get_user_input("Confirm? (yes/no): ", lambda x: x.lower() in {"yes", "no"})
-    if confirmation.lower() != "yes":
+    confirmation = get_user_input("Confirm? (Y/n): ", lambda x: x.lower() in {"y", "n", ""})
+    if confirmation.lower() == "n":
         print("Aborted by user.")
         return
-
     # Convert inputs to JSON
     data = {
         "User ID": user_id,
