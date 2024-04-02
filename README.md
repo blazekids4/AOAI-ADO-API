@@ -10,7 +10,7 @@ The script leverages the power of the Azure OpenAI API to generate chat completi
 
 Before running this script, ensure you have the following:
 
-1. Python: The script is written in Python. Ensure you have Python 3.6 or later installed on your machine. You can download Python from the official website.
+1. Python: The script is written in Python. Ensure you have Python 3.9 or later installed on your machine. You can download Python from the official website.
 
 2. Required Python Libraries: This script uses several Python libraries such as dotenv for loading environment variables, requests for making HTTP requests, connecting to the LLM via Azure OpenAI, and json for handling JSON data. You can install these libraries using pip:
 
